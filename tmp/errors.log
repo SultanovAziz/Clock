@@ -1,0 +1,82 @@
+[2021-11-22 11-40-59] Текст ошибки : Too few arguments to function app\widgets\menu\Menu::getMenuHtml(), 0 passed in C:\xampp\htdocs\clock\app\widgets\menu\Menu.php on line 58 and at least 1 expected | Файл : C:\xampp\htdocs\clock\app\widgets\menu\Menu.php | Строка : 85
+=====================
+[2021-11-23 08-23-47] Текст ошибки : Контроллер app\controllers\CategoryController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
+=====================
+[2021-11-23 08-29-35] Текст ошибки : Контроллер app\controllers\CategoryController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
+=====================
+[2021-11-23 08-30-57] Текст ошибки : Контроллер app\controllers\CategoryController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
+=====================
+[2021-11-23 08-31-03] Текст ошибки : Контроллер app\controllers\CategoryController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
+=====================
+[2021-11-23 08-35-21] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-35-44] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-35-50] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-35-56] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-37-06] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-42-49] Текст ошибки : Контроллер app\controllers\ProductController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
+=====================
+[2021-11-23 08-46-30] Текст ошибки : Call to undefined method app\controllers\ProductController::getView() | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 34
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-23 08-47-51] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-11-24 18-29-04] Текст ошибки : Too few arguments to function clock\Registry::getProperty(), 0 passed in C:\xampp\htdocs\clock\app\views\Product\view.php on line 18 and exactly 1 expected | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Registry.php | Строка : 16
+=====================
+[2021-11-24 19-02-21] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
+=====================
+[2021-12-09 18-13-14] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
+=====================
+[2021-12-09 18-13-23] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
+=====================

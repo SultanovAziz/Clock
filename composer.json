@@ -1,0 +1,17 @@
+{
+    "authors": [
+        {
+            "name": "Sultanov Aziz",
+            "email": "aziz89131983189@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "clock\\" : "vendor/clock/core",
+            "app\\" : "app"
+        }
+    },
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    }
+}
