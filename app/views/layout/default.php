@@ -87,6 +87,7 @@
 </div>
 <!--bottom-header-->
 <div>
+    <?php debug($_SESSION); ?>
     <?= $content; ?>
 </div>
 <!--information-starts-->
