@@ -11,6 +11,7 @@ class Product extends AppModel
         $recentlyViewed = $this->getAllRecentlyViewed();
         if(!$recentlyViewed){
             setcookie('recentlyViewed',$id,time()+3600*24,'/');
+            setcookie('recentlyViewed',$id,time()+3600*24,'/');
         }
         else{
             $recentlyViewed = explode(',',$recentlyViewed);

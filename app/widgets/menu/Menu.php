@@ -26,6 +26,7 @@ class Menu
     {
         $this->tpl = __DIR__.'/menu_tpl/menu.php';
         $this->setOptions($options);
+        debug($this->tree);
         $this->run();
     }
     public function setOptions($options)
@@ -55,17 +56,7 @@ class Menu
 
     }
     public function output(){
-        $attr = '';
-        if (!empty($this->attr)){
-            foreach ($this->attr as $key => $value) {
-                $attr .= " $key = '$value' ";
-            }
-        }
 
-        echo "<{$this->container} class = '{$this->class}' $attr >";
-        echo $this->prepend;
-        echo $this->menuHtml;
-        echo "</{$this->container}>";
     }
     protected function getTree(){
         $tree = [];
