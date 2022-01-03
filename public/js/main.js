@@ -17,15 +17,62 @@ $('body').on('click','.add-to-cart-link',function (e){
     });
 });
 
+$('#cart .modal-body').on('click','.del-item',function (){
+     var id = $(this).data('id');
+     $.ajax({
+         url : 'cart/delete',
+         data: {id : id},
+         type: 'GET',
+         success : function (result){
+            showCart(result);
+         },
+         error : function (){
+             alert('Ошибка!');
+         }
+     });
+});
+
 function showCart(cart){
    if ($.trim(cart)=='<h3>Корзина пуста</h3>'){
-       $('#cart .modal-footer a .modal-footer .btn-danger').css('display','none');
+       $('#cart .modal-footer a,#cart .modal-footer .btn-danger').css('display','none');
    }
    else{
-       $('#cart .modal-footer a .modal-footer .btn-danger').css('display','inline-block');
+       $('#cart .modal-footer a,#cart .modal-footer .btn-danger').css('display','inline-block');
    }
    $('#cart .modal-body').html(cart);
    $('#cart').modal();
+   if ($('.cart-sum').text()){
+       $('.cart_total').html($('#cart .cart-sum').text());
+   }
+   else{
+       $('.cart_total').text('Empty cart');
+   }
+}
+
+
+function getCart(){
+    $.ajax({
+       url : 'cart/show',
+        success : function (result) {
+            showCart(result);
+        },
+        error : function (){
+            alert("Ошибка! Попробуйте позже");
+        }
+    });
+}
+
+function clearCart(){
+    $.ajax({
+        url : 'cart/clear',
+        success : function (result) {
+            showCart(result);
+        },
+        error : function (){
+            alert("Ошибка! Попробуйте позже");
+        }
+    });
+
 }
 
 /* Cart */

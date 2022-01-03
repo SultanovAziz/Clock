@@ -37,14 +37,19 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
+
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
-                    <a href="checkout.html">
-                        <div class="total">
-                            <span class="simpleCart_total"></span></div>
-                        <img src="images/cart-1.png" alt="" />
+                    <a href="cart/show" onclick="getCart();return false;">
+                        <span class="total">
+                            <img src="images/cart-1.png" alt="">
+                             <?php if (!empty($_SESSION['cart'])): ?>
+                                 <span class="cart_total"><?=$_SESSION['cart.currency']['symbol_left'].$_SESSION['cart.sum'].$_SESSION['cart.currency']['symbol_right']; ?></span>
+                             <?php else: ?>
+                                <span class="cart_total">Empty cart</span>
+                            <?php endif; ?>
+                        </span>
                     </a>
-                    <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
                     <div class="clearfix"> </div>
                 </div>
             </div>
@@ -140,8 +145,8 @@
         <div class="footer-top">
             <div class="col-md-6 footer-left">
                 <form>
-                    <input type="text" value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
-                    <input type="submit" value="Subscribe">
+                    <input type="text"  value="Enter Your Email" >
+                    <input type="submit" value="Subscribe"  >
                 </form>
             </div>
             <div class="col-md-6 footer-right">
@@ -152,6 +157,7 @@
     </div>
 </div>
 <!--footer-end-->
+
 <!--Modal-start-->
 <div class="modal fade" id="cart" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
@@ -166,7 +172,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупку</button>
                 <a href="cart/view" type="button" class = "btn btn-primary">Оформить заказ</a>
-                <button type="button"  class="btn btn-danger" onclick="clearCart()">Очистить корзину</button>
+                <button type="button"  class="btn btn-danger" onclick="clearCart();">Очистить корзину</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

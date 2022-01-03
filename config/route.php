@@ -1,5 +1,10 @@
 <?php
 
+
+
+
+
+
 \clock\Router::addRoute('^product/(?P<alias>[a-z0-9-]+)/?$',['controller' => 'Product','action' => 'view']);
 
 //default routes

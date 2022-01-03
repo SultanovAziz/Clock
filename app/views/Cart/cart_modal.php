@@ -7,7 +7,7 @@
                     <th>Наименование</th>
                     <th>Кол-во</th>
                     <th>Ценна</th>
-                    <th><span class="glyphicon glyphicon-remove"></span></th>
+                    <th><span class="glyphicon glyphicon-remove del-item"></span></th>
                 </tr>
             </thead>
             <tbody>
@@ -26,7 +26,7 @@
                 </tr>
                 <tr>
                     <td>На сумму :</td>
-                    <td colspan="4" class="text-right cart-qty"><?= $_SESSION['cart.currency']['symbol_left'].$_SESSION['cart.sum'].$_SESSION['cart.currency']['symbol_right']; ?></td>
+                    <td colspan="4" class="text-right cart-sum"><?= $_SESSION['cart.currency']['symbol_left'].$_SESSION['cart.sum'].$_SESSION['cart.currency']['symbol_right']; ?></td>
                 </tr>
             </tbody>
         </table>

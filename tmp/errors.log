@@ -90,3 +90,61 @@
 =====================
 [2021-12-15 16-37-31] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
 =====================
+[2021-12-19 06-31-57] Текст ошибки : База данных не была подключенна | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Db.php | Строка : 17
+=====================
+[2021-12-19 06-42-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-12-19 07-28-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 07-29-19] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 07-31-34] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 07-33-16] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 07-35-12] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 08-04-43] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 08-04-52] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 08-11-38] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 08-22-12] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 08-22-36] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 08-26-01] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-19 08-57-42] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-12-19 09-01-16] Текст ошибки : Метод не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 37
+=====================
+[2021-12-19 09-13-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-12-19 09-13-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-12-19 09-13-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-12-19 09-13-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-12-19 10-06-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-12-19 10-06-28] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
+=====================
+[2021-12-21 18-40-39] Текст ошибки : Метод не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 37
+=====================
+[2021-12-21 18-46-07] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-21 18-46-39] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-21 18-47-43] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-21 18-49-40] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
+=====================
+[2021-12-21 19-33-33] Текст ошибки : syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл : C:\xampp\htdocs\clock\app\controllers\CartController.php | Строка : 56
+=====================
+[2021-12-21 19-34-22] Текст ошибки : syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл : C:\xampp\htdocs\clock\app\controllers\CartController.php | Строка : 56
+=====================
+[2021-12-22 05-33-49] Текст ошибки : Метод не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 37
+=====================

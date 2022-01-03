@@ -72,7 +72,7 @@ body a{
     -webkit-appearance: none;
     border: 0;
     display: inline-block;
-    vertical-align: -webkit-baseline-middle;
+
     position: absolute;
     width: 18px;
     height: 18px;
@@ -131,7 +131,7 @@ a.simpleCart_empty {
     font-family: 'Lato', sans-serif;
     font-size: 11px;
 }
-span.simpleCart_total {
+span.cart_total {
     font-size: 13px;
 }
 .box_1 p {
@@ -2606,7 +2606,7 @@ h3.ghj {
 .memenu>li>a:hover {
     padding: 10px 25px !important;
 }
-span.simpleCart_total {
+span.cart_total {
     font-size: 11px;
 }
 .box_1 a img {
@@ -2741,7 +2741,7 @@ figure.effect-bubba p {
 .box {
     width: 45%;
 }
-span.simpleCart_total {
+span.cart_total {
     font-size: 10px;
 }
 .box_1 a img {
@@ -3068,5 +3068,13 @@ ul.tag-men {
 	margin-top: 3em;
 	margin-right: 10px;
 	float: left;
+}
+
+
+#cart table img{
+	height: 70px;
+}
+.del-item{
+	cursor: pointer;
 }
 /*--media-quaries-end-here--*/

@@ -17,7 +17,7 @@ class Menu
     protected $class = 'menu';
     protected $table = 'category';
     protected $cache = 3600;
-    protected $cacheKey = 'simple_menu';
+    protected $cacheKey = 'clock_menu';
     protected $attr = [];
     //in admin
     protected $prepend = '';
@@ -26,7 +26,6 @@ class Menu
     {
         $this->tpl = __DIR__.'/menu_tpl/menu.php';
         $this->setOptions($options);
-        debug($this->tree);
         $this->run();
     }
     public function setOptions($options)
@@ -56,7 +55,17 @@ class Menu
 
     }
     public function output(){
+        $attr = '';
+        if (!empty($this->attr)){
+            foreach ($this->attr as $key => $value) {
+                $attr .= " $key = '$value' ";
+            }
+        }
 
+        echo "<{$this->container} class = '{$this->class}' $attr >";
+        echo $this->prepend;
+        echo $this->menuHtml;
+        echo "</{$this->container}>";
     }
     protected function getTree(){
         $tree = [];
@@ -70,7 +79,7 @@ class Menu
             }
         }
         return $tree;
-        debug($tree);
+
     }
     protected function getMenuHtml($tree,$tab = ''){
         $str  = '';

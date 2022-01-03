@@ -40,4 +40,35 @@ class Cart extends AppModel
             ($qty*$_SESSION['cart.currency']['value'] * $price);
     }
 
+    public function deleteItem($id){
+        $cartQuantity = $_SESSION['cart'][$id]['qty'];
+        $cartPrice = $_SESSION['cart'][$id]['price'] * $cartQuantity;
+        $_SESSION['cart.qty'] -= $cartQuantity;
+        $_SESSION['cart.sum'] -= $cartPrice;
+        unset($_SESSION['cart'][$id]);
+
+    }
+
+    public static function recalc($currency){
+        if (isset($_SESSION['cart.currency'])){
+            if ($_SESSION['cart.currency']['base']){
+                $_SESSION['cart.sum'] *= $currency->value;
+            }
+            else{
+                $_SESSION['cart.sum'] = $_SESSION['cart.sum'] / $_SESSION['cart.currency']['value']*$currency->value;
+            }
+            foreach ($_SESSION['cart'] as $k=>$v){
+                if ($_SESSION['cart.currency']['base']){
+                    $_SESSION['cart'][$k]['price'] *= $currency->value;
+                }
+                else{
+                    $_SESSION['cart'][$k]['price'] = $_SESSION['cart'][$k]['price'] / $_SESSION['cart.currency']['value'] * $currency->value;
+                }
+            }
+            foreach ($currency as $k=>$v){
+                $_SESSION['cart.currency'][$k] = $v;
+            }
+        }
+    }
+
 }
