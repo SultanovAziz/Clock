@@ -1396,25 +1396,25 @@
             _managePreventDefault: function managePreventDefault(keyName, $e) {
                 var preventDefault;
                 switch (keyName) {
-                    case "up":
-                    case "down":
-                        preventDefault = !withModifier($e);
-                        break;
+                  case "up":
+                  case "down":
+                    preventDefault = !withModifier($e);
+                    break;
 
-                    default:
-                        preventDefault = false;
+                  default:
+                    preventDefault = false;
                 }
                 preventDefault && $e.preventDefault();
             },
             _shouldTrigger: function shouldTrigger(keyName, $e) {
                 var trigger;
                 switch (keyName) {
-                    case "tab":
-                        trigger = !withModifier($e);
-                        break;
+                  case "tab":
+                    trigger = !withModifier($e);
+                    break;
 
-                    default:
-                        trigger = true;
+                  default:
+                    trigger = true;
                 }
                 return trigger;
             },
