@@ -82,8 +82,11 @@
             </div>
             <div class="col-md-3 header-right">
                 <div class="search-bar">
-                    <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-                    <input type="submit" value="">
+                    <form action="search" method="get" autocomplete="off">
+                        <input type="text" id="typeahead" class="typeahead" name="s">
+                        <input type="submit" value="">
+                    </form>
+
                 </div>
             </div>
             <div class="clearfix"> </div>
@@ -194,6 +197,7 @@
 <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--start-menu-->
 <script src="js/simpleCart.min.js"> </script>
@@ -221,6 +225,7 @@
 
     });
 </script>
+<script scr="js/typehead.js"></script>
 <script src="js/main.js"></script>
 <script src="megamenu/js/megamenu.js"></script>
 <script src="js/jquery.easydropdown.js"></script>
