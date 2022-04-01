@@ -1,15 +1,33 @@
 <?php
 
-
 namespace app\models;
 
+/*Array
+(
+    [1] => Array
+        (
+            [qty] => QTY
+            [name] => NAME
+            [price] => PRICE
+            [img] => IMG
+        )
+    [10] => Array
+        (
+            [qty] => QTY
+            [name] => NAME
+            [price] => PRICE
+            [img] => IMG
+        )
+    )
+    [qty] => QTY,
+    [sum] => SUM
+*/
 
 use clock\App;
 
-class Cart extends AppModel
-{
+class Cart extends AppModel {
 
-    public function addToCart($product,$qty=1,$mod = null){
+    public function addToCart($product, $qty = 1, $mod = null){
         if(!isset($_SESSION['cart.currency'])){
             $_SESSION['cart.currency'] = App::$app->getProperty('currency');
         }
@@ -17,55 +35,49 @@ class Cart extends AppModel
             $ID = "{$product->id}-{$mod->id}";
             $title = "{$product->title} ({$mod->title})";
             $price = $mod->price;
-        }
-        else{
+        }else{
             $ID = $product->id;
             $title = $product->title;
             $price = $product->price;
         }
-        if (isset($_SESSION['cart'][$ID])){
+        if(isset($_SESSION['cart'][$ID])){
             $_SESSION['cart'][$ID]['qty'] += $qty;
-        }
-        else{
+        }else{
             $_SESSION['cart'][$ID] = [
-                "qty" => $qty,
-                "title" => $title,
-                "alias" => $product->alias,
-                "price" => $price * $_SESSION['cart.currency']['value'],
-                "img" => $product->img
+                'qty' => $qty,
+                'title' => $title,
+                'alias' => $product->alias,
+                'price' => $price * $_SESSION['cart.currency']['value'],
+                'img' => $product->img,
             ];
         }
         $_SESSION['cart.qty'] = isset($_SESSION['cart.qty']) ? $_SESSION['cart.qty'] + $qty : $qty;
-        $_SESSION['cart.sum'] = isset($_SESSION['cart.sum']) ? $_SESSION['cart.sum'] + ($qty*$_SESSION['cart.currency']['value'] * $price) :
-            ($qty*$_SESSION['cart.currency']['value'] * $price);
+        $_SESSION['cart.sum'] = isset($_SESSION['cart.sum']) ? $_SESSION['cart.sum'] + $qty * ($price * $_SESSION['cart.currency']['value']) : $qty * ($price * $_SESSION['cart.currency']['value']);
     }
 
     public function deleteItem($id){
-        $cartQuantity = $_SESSION['cart'][$id]['qty'];
-        $cartPrice = $_SESSION['cart'][$id]['price'] * $cartQuantity;
-        $_SESSION['cart.qty'] -= $cartQuantity;
-        $_SESSION['cart.sum'] -= $cartPrice;
+        $qtyMinus = $_SESSION['cart'][$id]['qty'];
+        $sumMinus = $_SESSION['cart'][$id]['qty'] * $_SESSION['cart'][$id]['price'];
+        $_SESSION['cart.qty'] -= $qtyMinus;
+        $_SESSION['cart.sum'] -= $sumMinus;
         unset($_SESSION['cart'][$id]);
-
     }
 
-    public static function recalc($currency){
-        if (isset($_SESSION['cart.currency'])){
-            if ($_SESSION['cart.currency']['base']){
-                $_SESSION['cart.sum'] *= $currency->value;
+    public static function recalc($curr){
+        if(isset($_SESSION['cart.currency'])){
+            if($_SESSION['cart.currency']['base']){
+                $_SESSION['cart.sum'] *= $curr->value;
+            }else{
+                $_SESSION['cart.sum'] = $_SESSION['cart.sum'] / $_SESSION['cart.currency']['value'] * $curr->value;
             }
-            else{
-                $_SESSION['cart.sum'] = $_SESSION['cart.sum'] / $_SESSION['cart.currency']['value']*$currency->value;
-            }
-            foreach ($_SESSION['cart'] as $k=>$v){
-                if ($_SESSION['cart.currency']['base']){
-                    $_SESSION['cart'][$k]['price'] *= $currency->value;
-                }
-                else{
-                    $_SESSION['cart'][$k]['price'] = $_SESSION['cart'][$k]['price'] / $_SESSION['cart.currency']['value'] * $currency->value;
+            foreach($_SESSION['cart'] as $k => $v){
+                if($_SESSION['cart.currency']['base']){
+                    $_SESSION['cart'][$k]['price'] *= $curr->value;
+                }else{
+                    $_SESSION['cart'][$k]['price'] = $_SESSION['cart'][$k]['price'] / $_SESSION['cart.currency']['value'] * $curr->value;
                 }
             }
-            foreach ($currency as $k=>$v){
+            foreach($curr as $k => $v){
                 $_SESSION['cart.currency'][$k] = $v;
             }
         }

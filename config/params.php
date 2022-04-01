@@ -1,9 +1,9 @@
 <?php
 
 return [
-   'shop_name ' => 'Clock',
-   'admin-email' => 'aziz89131983189@gmail.com',
-   'pagination' => '',
-   'smt_login' => '',
-    'smt_password' => '',
+    'admin_email' => 'admin@mail.com',
+    'shop_name' => 'Магазин clock',
+    'pagination' => 3,
+    'smtp_login' => '',
+    'smtp_password' => '',
 ];

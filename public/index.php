@@ -1,8 +1,11 @@
-﻿<?php
-require_once dirname(__DIR__).'/config/init.php';
-require_once LIBS.'/function.php';
-require_once CONF.'/route.php';
-use clock\App;
+<?php
 
-$app = new App();
+require_once dirname(__DIR__) . '/config/init.php';
+require_once LIBS.'/functions.php';
+require_once CONF . '/routes.php';
+
+
+new \clock\App();
+
+
 

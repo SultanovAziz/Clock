@@ -1,52 +1,49 @@
 <?php
 
-
 namespace clock\base;
 
-
-abstract class Controller
-{
+abstract class Controller{
 
     public $route;
     public $controller;
-    public $view;
     public $model;
-    public $layout;
+    public $view;
     public $prefix;
-    public $meta = ['title' => '','desc' => '','keywords' => ''];
-    public $data;
+    public $layout;
+    public $data = [];
+    public $meta = ['title' => '', 'desc' => '', 'keywords' => ''];
 
-    public function __construct($route = []){
+    public function __construct($route){
         $this->route = $route;
         $this->controller = $route['controller'];
+        $this->model = $route['controller'];
         $this->view = $route['action'];
         $this->prefix = $route['prefix'];
-        $this->model = $route['action'];
-    }
-
-    public function setData($data){
-        $this->data  = $data;
     }
 
     public function getView(){
-        $view = new View($this->route,$this->meta);
-        $view->setLayout($this->layout);
-        $view->render($this->data);
+        $viewObject = new View($this->route, $this->layout, $this->view, $this->meta);
+        $viewObject->render($this->data);
     }
 
-    public function setMeta($title = '',$desc = '',$keyword = ''){
+    public function set($data){
+        $this->data = $data;
+    }
+
+    public function setMeta($title = '', $desc = '', $keywords = ''){
         $this->meta['title'] = $title;
         $this->meta['desc'] = $desc;
-        $this->meta['keywords'] = $keyword;
+        $this->meta['keywords'] = $keywords;
     }
 
-    public function isAjax(){
-        return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] == "XMLHttpRequest";
+    public function isAjax() {
+        return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
     }
 
-    public function loadView($view,$vars = []){
+    public function loadView($view, $vars = []){
         extract($vars);
-        require_once APP."/views/{$this->prefix}{$this->controller}/{$view}.php";
-        die();
+        require APP . "/views/{$this->prefix}{$this->controller}/{$view}.php";
+        die;
     }
+
 }

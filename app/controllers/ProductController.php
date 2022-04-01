@@ -1,54 +1,44 @@
 <?php
 
-
 namespace app\controllers;
-
 
 use app\models\Breadcrumbs;
 use app\models\Product;
 
-class ProductController extends AppController
-{
+class ProductController extends AppController {
 
-    public function viewAction()
-    {
+    public function viewAction(){
         $alias = $this->route['alias'];
-        $product = \R::findOne('product',"alias=? AND status='1'",[$alias]);
-
+        $product = \R::findOne('product', "alias = ? AND status = '1'", [$alias]);
         if(!$product){
-            throw new \Exception("Страница не найдена",404);
+            throw new \Exception('Страница не найдена', 404);
         }
 
-        //хлебные крошки
-        $breadcrumbs = Breadcrumbs::getBreadcrums($product->category_id,$product->title);
+        // хлебные крошки
+        $breadcrumbs = Breadcrumbs::getBreadcrumbs($product->category_id, $product->title);
 
-        //связыванные товары
-        $related = \R::getAll("SELECT * FROM related_product JOIN product ON related_product.related_id = product.id WHERE related_product.product_id = ? ",[$product->id]);
+        // связанные товары
+        $related = \R::getAll("SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id]);
 
-        //запись в куки запрошенного товара
-        $productModel = new Product();
-        $productModel->setRecentlyViewed($product->id);
+        // запись в куки запрошенного товара
+        $p_model = new Product();
+        $p_model->setRecentlyViewed($product->id);
 
-
-        //просмотренные товары
-        $productViewed = $productModel->getRecentlyViewed();
+        // просмотренные товары
+        $r_viewed = $p_model->getRecentlyViewed();
         $recentlyViewed = null;
-        if (!empty($productViewed)){
-            $recentlyViewed = \R::find('product','id IN ('.\R::genSlots($productViewed).') LIMIT 3',$productViewed);
+        if($r_viewed){
+            $recentlyViewed = \R::find('product', 'id IN (' . \R::genSlots($r_viewed) . ') LIMIT 3', $r_viewed);
         }
 
+        // галерея
+        $gallery = \R::findAll('gallery', 'product_id = ?', [$product->id]);
 
-        //галерея
-        $gallery = \R::findAll('gallery','product_id=?',[$product->id]);
+        // модификации
+        $mods = \R::findAll('modification', 'product_id = ?', [$product->id]);
 
-        //модификации
-        $modification = \R::findAll('modification','product_id=?',[$product->id]);
-
-
-
-        $this->setMeta($product->title,$product->description,$product->keywords);
-        $this->setData(compact("product","related","gallery","recentlyViewed","breadcrumbs","modification"));
-
-
+        $this->setMeta($product->title, $product->description, $product->keywords);
+        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs', 'mods'));
     }
+
 }

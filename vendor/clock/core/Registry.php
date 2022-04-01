@@ -1,25 +1,26 @@
 <?php
 
-
 namespace clock;
 
+class Registry {
 
-class Registry
-{
+    use TSingletone;
 
-    use TSingeltone;
     protected static $properties = [];
 
-    public function setProperty($name,$value){
+    public function setProperty($name, $value){
         self::$properties[$name] = $value;
     }
+
     public function getProperty($name){
-        if (self::$properties[$name]){
+        if(isset(self::$properties[$name])){
             return self::$properties[$name];
         }
         return null;
     }
+
     public function getProperties(){
         return self::$properties;
     }
+
 }

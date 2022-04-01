@@ -1,16 +1,14 @@
 <?php
 
-
 namespace clock\base;
-
 
 use clock\Db;
 
-abstract class Model
-{
-    public $attribute = [];
+abstract class Model{
+
+    public $attributes = [];
     public $errors = [];
-    public $route = [];
+    public $rules = [];
 
     public function __construct(){
         Db::instance();

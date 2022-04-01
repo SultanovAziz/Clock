@@ -1,150 +1,626 @@
-[2021-11-22 11-40-59] Текст ошибки : Too few arguments to function app\widgets\menu\Menu::getMenuHtml(), 0 passed in C:\xampp\htdocs\clock\app\widgets\menu\Menu.php on line 58 and at least 1 expected | Файл : C:\xampp\htdocs\clock\app\widgets\menu\Menu.php | Строка : 85
-=====================
-[2021-11-23 08-23-47] Текст ошибки : Контроллер app\controllers\CategoryController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-11-23 08-29-35] Текст ошибки : Контроллер app\controllers\CategoryController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-11-23 08-30-57] Текст ошибки : Контроллер app\controllers\CategoryController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-11-23 08-31-03] Текст ошибки : Контроллер app\controllers\CategoryController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-11-23 08-35-21] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-35-44] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-35-50] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-35-56] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-37-06] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-42-49] Текст ошибки : Контроллер app\controllers\ProductController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-11-23 08-46-30] Текст ошибки : Call to undefined method app\controllers\ProductController::getView() | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 34
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-03] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-23 08-47-51] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-11-24 18-29-04] Текст ошибки : Too few arguments to function clock\Registry::getProperty(), 0 passed in C:\xampp\htdocs\clock\app\views\Product\view.php on line 18 and exactly 1 expected | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Registry.php | Строка : 16
-=====================
-[2021-11-24 19-02-21] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-12-09 18-13-14] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-12-09 18-13-23] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-12-15 16-35-57] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-12-15 16-36-04] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-12-15 16-36-15] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-12-15 16-36-46] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-12-15 16-37-31] Текст ошибки : Контроллер app\controllers\CartController не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 41
-=====================
-[2021-12-19 06-31-57] Текст ошибки : База данных не была подключенна | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Db.php | Строка : 17
-=====================
-[2021-12-19 06-42-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-12-19 07-28-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 07-29-19] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 07-31-34] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 07-33-16] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 07-35-12] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 08-04-43] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 08-04-52] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 08-11-38] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 08-22-12] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 08-22-36] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 08-26-01] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-19 08-57-42] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-12-19 09-01-16] Текст ошибки : Метод не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 37
-=====================
-[2021-12-19 09-13-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-12-19 09-13-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-12-19 09-13-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-12-19 09-13-29] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-12-19 10-06-25] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-12-19 10-06-28] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 45
-=====================
-[2021-12-21 18-40-39] Текст ошибки : Метод не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 37
-=====================
-[2021-12-21 18-46-07] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-21 18-46-39] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-21 18-47-43] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-21 18-49-40] Текст ошибки : Файл был не найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка : 45
-=====================
-[2021-12-21 19-33-33] Текст ошибки : syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл : C:\xampp\htdocs\clock\app\controllers\CartController.php | Строка : 56
-=====================
-[2021-12-21 19-34-22] Текст ошибки : syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл : C:\xampp\htdocs\clock\app\controllers\CartController.php | Строка : 56
-=====================
-[2021-12-22 05-33-49] Текст ошибки : Метод не был найден | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка : 37
-=====================
+[2017-08-21 16:01:42] Текст ошибки: Нет соединения с БД | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Db.php | Строка: 14
+=================
+[2017-08-22 08:49:56] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:49:56] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:52:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:07] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:53:26] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:54:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 08:54:19] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 12:09:30] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 12:09:30] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 12:54:44] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 13:12:46] Текст ошибки: Контроллер app\controllers\CartController не найден | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2017-08-22 16:29:27] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-22 16:29:27] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 09:05:20] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 09:05:21] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:28:14] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:28:14] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:42:37] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:44:03] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:45:48] Текст ошибки: Контроллер app\controllers\ProductController не найден | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:17] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:47:36] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:05] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:05] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:05] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:05] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:05] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:12] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:48:47] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 12:54:04] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 11
+=================
+[2017-08-23 16:15:37] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 16:15:37] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-23 16:21:55] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.realted_product' doesn't exist | Файл: D:\WebServer\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 186
+=================
+[2017-08-23 16:23:04] Текст ошибки: Контроллер app\controllers\CartController не найден | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2017-08-24 11:32:20] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-24 11:32:20] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 12:17:37] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 12:17:38] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 12:39:18] Текст ошибки: На найден вид D:\WebServer\domains\ishop2.loc/app/views/Cart/add.php | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
+=================
+[2017-08-26 15:44:13] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 15:44:13] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:05:46] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:05:46] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:05:46] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:06:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:06:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:06:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-27 14:57:28] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2017-08-27 14:58:42] Текст ошибки: На найден вид D:\WebServer\domains\ishop2.loc/app/views/Search/typeahead.php | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
+=================
+[2017-08-27 15:06:44] Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 33
+=================
+[2022-01-06 13:23:54] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\ishop\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2022-01-06 13:25:26] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\ishop\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2022-01-06 13:26:24] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\ishop\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2022-01-06 13:26:26] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\ishop\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2022-01-06 13:26:27] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\ishop\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2022-01-06 13:26:28] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\ishop\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2022-01-06 13:31:37] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\ishop\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2022-01-06 13:33:16] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\ishop\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2022-01-06 13-45-44] Текст ошибки : База данных не была подключенна | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Db.php | Строка : 17
+=====================
+[2022-01-06 13-45-46] Текст ошибки : База данных не была подключенна | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Db.php | Строка : 17
+=====================
+[2022-01-06 13-47-09] Текст ошибки : База данных не была подключенна | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Db.php | Строка : 17
+=====================
+[2022-01-06 13-47-10] Текст ошибки : База данных не была подключенна | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Db.php | Строка : 17
+=====================
+[2022-01-06 13-47-10] Текст ошибки : База данных не была подключенна | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Db.php | Строка : 17
+=====================
+[2022-01-06 13-47-10] Текст ошибки : База данных не была подключенна | Файл : C:\xampp\htdocs\clock\vendor\clock\core\Db.php | Строка : 17
+=====================
+[2022-01-06 13:50:09] Текст ошибки: Class 'ishop\App' not found | Файл: C:\xampp\htdocs\clock\app\views\Main\index.php | Строка: 44
+=================
+[2022-01-06 13:50:31] Текст ошибки: Class 'ishop\App' not found | Файл: C:\xampp\htdocs\clock\app\views\Main\index.php | Строка: 44
+=================
+[2022-01-06 13:51:10] Текст ошибки: Class 'ishop\App' not found | Файл: C:\xampp\htdocs\clock\app\views\layouts\watches.php | Строка: 181
+=================
+[2022-01-06 13:52:32] Текст ошибки: Class 'ishop\App' not found | Файл: C:\xampp\htdocs\clock\app\views\layouts\watches.php | Строка: 181
+=================
+[2022-01-06 13:52:33] Текст ошибки: Class 'ishop\App' not found | Файл: C:\xampp\htdocs\clock\app\views\layouts\watches.php | Строка: 181
+=================
+[2022-01-06 13:52:34] Текст ошибки: Class 'ishop\App' not found | Файл: C:\xampp\htdocs\clock\app\views\layouts\watches.php | Строка: 181
+=================
+[2022-01-06 13:52:35] Текст ошибки: Class 'ishop\App' not found | Файл: C:\xampp\htdocs\clock\app\views\layouts\watches.php | Строка: 181
+=================
+[2022-01-06 13:52:36] Текст ошибки: Class 'clok\App' not found | Файл: C:\xampp\htdocs\clock\app\views\Product\view.php | Строка: 39
+=================
+[2022-01-06 13:52:36] Текст ошибки: Страница не найдена | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 39
+=================
+[2022-01-06 13:52:36] Текст ошибки: Страница не найдена | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 39
+=================
+[2022-01-06 13:52:36] Текст ошибки: Страница не найдена | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 39
+=================
+[2022-01-06 13:52:49] Текст ошибки: Class 'ishop\App' not found | Файл: C:\xampp\htdocs\clock\app\views\layouts\watches.php | Строка: 181
+=================
+[2022-01-06 13:52:56] Текст ошибки: Class 'ishop\App' not found | Файл: C:\xampp\htdocs\clock\app\views\layouts\watches.php | Строка: 181
+=================
+[2022-01-06 17:09:45] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 36
+=================
+[2022-01-06 17:09:47] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 36
+=================
+[2022-01-06 17:09:48] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 36
+=================
+[2022-01-06 17:17:23] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:17:46] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:18:16] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:18:48] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:18:53] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:20:36] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:20:37] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:20:40] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:21:37] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:21:55] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:21:57] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:22:07] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:22:45] Текст ошибки: Call to undefined method app\controllers\SearchController::getView() | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 31
+=================
+[2022-01-06 17:22:47] Текст ошибки: Call to undefined method app\controllers\SearchController::getView() | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 31
+=================
+[2022-01-06 17:22:50] Текст ошибки: Call to undefined method app\controllers\SearchController::getView() | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 31
+=================
+[2022-01-06 17:23:57] Текст ошибки: На найден вид C:\xampp\htdocs\clock/app/views/Search/typeahead.php | Файл: C:\xampp\htdocs\clock\vendor\clock\core\base\View.php | Строка: 38
+=================
+[2022-01-06 17:25:56] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%c%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:25:59] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%cC%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:26:00] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%C%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:26:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%C%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:26:05] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%C2%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:26:07] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%123%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:26:07] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%1%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:26:32] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%1%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:27:45] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%1%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:27:47] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%123%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:27:48] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%12%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:27:58] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%1%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:02] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%1%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:04] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%12%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:04] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%1%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:11] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%2%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:12] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%1%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:19] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%2%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:19] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%3%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:20] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%4%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:21] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%5%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:22] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%2%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:23] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%23%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:28:24] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%3%' LIMIT 9' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 17:29:51] Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 33
+=================
+[2022-01-06 17:54:18] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 | Файл: C:\xampp\htdocs\clock\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2022-01-06 20:59:48] Текст ошибки: syntax error, unexpected ')' | Файл: C:\xampp\htdocs\clock\app\views\Search\index.php | Строка: 34
+=================
+[2022-03-03 13:07:52] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 36
+=================
+[2022-03-08 10:41:43] Текст ошибки: Контроллер app\controllers\AsdController не найден | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 36
+=================
+[2022-03-09 11:24:48] Текст ошибки: Метод app\controllers\CartController::viewAction не найден | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 33
+=================
+[2022-03-12 11:26:59] Текст ошибки: Страница не найдена | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 39
+=================
+[2022-03-29 16:59:56] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: C:\xampp\htdocs\clock\vendor\clock\core\Router.php | Строка: 36
+=================

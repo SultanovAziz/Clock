@@ -1,35 +1,31 @@
 <?php
 
-
 namespace app\controllers;
-
 
 use app\models\Cart;
 
-class CartController extends AppController
-{
+class CartController extends AppController {
 
     public function addAction(){
         $id = !empty($_GET['id']) ? (int)$_GET['id'] : null;
-        $quantity = !empty(($_GET['quantity'])) ? (int)$_GET['quantity'] : null;
+        $qty = !empty($_GET['qty']) ? (int)$_GET['qty'] : null;
         $mod_id = !empty($_GET['mod']) ? (int)$_GET['mod'] : null;
         $mod = null;
-        if ($id){
-            $product = \R::findOne('product','id = ?',[$id]);
-            if (!$product){
+        if($id){
+            $product = \R::findOne('product', 'id = ?', [$id]);
+            if(!$product){
                 return false;
             }
-            if ($mod_id){
-                $mod = \R::findOne('modification','id = ? AND product_id = ?' ,[$mod_id,$id]);
+            if($mod_id){
+                $mod = \R::findOne('modification', 'id = ? AND product_id = ?', [$mod_id, $id]);
             }
-
         }
-       $cart = new Cart();
-       $cart->addToCart($product,$quantity,$mod);
-       if ($this->isAjax()){
-           $this->loadView('cart_modal');
-       }
-       redirect();
+        $cart = new Cart();
+        $cart->addToCart($product, $qty, $mod);
+        if($this->isAjax()){
+            $this->loadView('cart_modal');
+        }
+        redirect();
     }
 
     public function showAction(){
@@ -42,11 +38,10 @@ class CartController extends AppController
             $cart = new Cart();
             $cart->deleteItem($id);
         }
-        if ($this->isAjax()){
+        if($this->isAjax()){
             $this->loadView('cart_modal');
         }
         redirect();
-
     }
 
     public function clearAction(){
@@ -54,9 +49,7 @@ class CartController extends AppController
         unset($_SESSION['cart.qty']);
         unset($_SESSION['cart.sum']);
         unset($_SESSION['cart.currency']);
-        if ($this->isAjax()){
-            $this->loadView('cart_modal');
-        }
-        redirect();
+        $this->loadView('cart_modal');
     }
+
 }

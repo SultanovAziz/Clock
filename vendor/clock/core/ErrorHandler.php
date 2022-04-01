@@ -1,39 +1,39 @@
 <?php
 
-
 namespace clock;
 
+class ErrorHandler{
 
-class ErrorHandler
-{
     public function __construct(){
-        if (DEBUG){
+        if(DEBUG){
             error_reporting(-1);
-        }
-        else{
+        }else{
             error_reporting(0);
         }
-        set_exception_handler([$this,'exeptionHandler']);
-    }
-    public function exeptionHandler($error){
-        $this->logError($error->getMessage(),$error->getFile(),$error->getLine());
-        $this->dispayError('Исключение',$error->getMessage(),$error->getFile(),$error->getLine(),$error->getCode());
-    }
-    public function logError($message = '',$file = '',$line = ''){
-        error_log("[".date('Y-m-d H-i-s')."] Текст ошибки : {$message} | Файл : {$file} | Строка : {$line}\n=====================\n",3,ROOT.'/tmp/errors.log');
+        set_exception_handler([$this, 'exceptionHandler']);
     }
 
-    public function dispayError($throw,$message,$file,$line,$code = 404){
-        if (!DEBUG and $code == 404){
-            require_once WWW.'/errors/404.php';
+    public function exceptionHandler($e){
+        $this->logErrors($e->getMessage(), $e->getFile(), $e->getLine());
+        $this->displayError('Исключение', $e->getMessage(), $e->getFile(), $e->getLine(), $e->getCode());
+    }
+
+    protected function logErrors($message = '', $file = '', $line = ''){
+        error_log("[" . date('Y-m-d H:i:s') . "] Текст ошибки: {$message} | Файл: {$file} | Строка: {$line}\n=================\n", 3, ROOT . '/tmp/errors.log');
+    }
+
+    protected function displayError($errno, $errstr, $errfile, $errline, $responce = 404){
+        http_response_code($responce);
+        if($responce == 404 && !DEBUG){
+            require WWW . '/errors/404.php';
+            die;
         }
-        else if (DEBUG){
-            require_once WWW.'/errors/dev.php';
+        if(DEBUG){
+            require WWW . '/errors/dev.php';
+        }else{
+            require WWW . '/errors/prod.php';
         }
-        else{
-            require_once WWW.'/errors/prod.php';
-        }
-        exit();
+        die;
     }
 
 }

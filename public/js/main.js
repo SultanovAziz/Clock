@@ -1,136 +1,119 @@
 /* Search */
-
-
 var products = new Bloodhound({
     datumTokenizer : Bloodhound.tokenizers.whitespace,
     queryTokenizer : Bloodhound.tokenizers.whitespace,
     remote : {
-        wildcard : '%QUERY',
-        url : path + '/search/typehead?query=%QUERY'
+        wildcard: '%QUERY',
+        url : path + '/search/typeahead?query=%QUERY'
     }
 });
 
 products.initialize();
 
-$('#typehead').typeahead({
-    highlight: true,
+$('#typeahead').typeahead({
+    highlight : true,
 },{
     name : 'products',
     display : 'title',
     limit : 10,
     source : products
-
-});
+})
 
 $('#typeahead').bind('typeahead:select',function (ev,suggestion){
-   window.location =  path  +  '/search/?s='+ encodeURIComponent(suggestion.title);
+   window.location = path + '/search/?s=' + encodeURIComponent(suggestion.title);
 });
-
-
-
-
-
 
 /* Search */
-
-
-
-/* Cart */
-$('body').on('click','.add-to-cart-link',function (e){
-    e.preventDefault();
-    var id = $(this).data('id'),
-        quantity = $('.quantity input').val() ? $('.quantity input').val() : 1,
-        mod = $('.available select').val();
-    $.ajax({
-        url : "cart/add",
-        data : {id : id,quantity : quantity,mod : mod},
-        type : "GET",
-        success : function (result){
-            showCart(result);
-        },
-        error : function (){
-            alert("Ошибка! Попробуйте позже");
-        }
-    });
-});
-
-$('#cart .modal-body').on('click','.del-item',function (){
-     var id = $(this).data('id');
+/*Cart*/
+$('body').on('click', '.add-to-cart-link', function(e){
+     e.preventDefault();
+     var id = $(this).data('id'),
+         qty = $('.quantity input').val() ? $('.quantity input').val() : 1,
+         mod = $('.available select').val();
      $.ajax({
-         url : 'cart/delete',
-         data: {id : id},
+         url: 'cart/add',
+         data: {id: id, qty: qty, mod: mod},
          type: 'GET',
-         success : function (result){
-            showCart(result);
+         success: function(res){
+              showCart(res);
+
          },
-         error : function (){
-             alert('Ошибка!');
+         error: function(e){
+
+             alert('Ошибка! Попробуйте позже');
          }
      });
 });
 
+$('#cart .modal-body').on('click', '.del-item', function(){
+    var id = $(this).data('id');
+    $.ajax({
+        url: 'cart/delete',
+        data: {id: id},
+        type: 'GET',
+        success: function(res){
+            showCart(res);
+        },
+        error: function(){
+            alert('Error!');
+        }
+    });
+});
+
 function showCart(cart){
-   if ($.trim(cart)=='<h3>Корзина пуста</h3>'){
-       $('#cart .modal-footer a,#cart .modal-footer .btn-danger').css('display','none');
-   }
-   else{
-       $('#cart .modal-footer a,#cart .modal-footer .btn-danger').css('display','inline-block');
-   }
-   $('#cart .modal-body').html(cart);
-   $('#cart').modal();
-   if ($('.cart-sum').text()){
-       $('.cart_total').html($('#cart .cart-sum').text());
-   }
-   else{
-       $('.cart_total').text('Empty cart');
-   }
+    if($.trim(cart) == '<h3>Корзина пуста</h3>'){
+        $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'none');
+    }else{
+        $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'inline-block');
+    }
+    $('#cart .modal-body').html(cart);
+    $('#cart').modal();
+    if($('.cart-sum').text()){
+        $('.simpleCart_total').html($('#cart .cart-sum').text());
+    }else{
+        $('.simpleCart_total').text('Empty Cart');
+    }
 }
 
-
-function getCart(){
+function getCart() {
     $.ajax({
-       url : 'cart/show',
-        success : function (result) {
-            showCart(result);
+        url: 'cart/show',
+        type: 'GET',
+        success: function(res){
+            showCart(res);
         },
-        error : function (){
-            alert("Ошибка! Попробуйте позже");
+        error: function(){
+            alert('Ошибка! Попробуйте позже');
         }
     });
 }
 
-function clearCart(){
+function clearCart() {
     $.ajax({
-        url : 'cart/clear',
-        success : function (result) {
-            showCart(result);
+        url: 'cart/clear',
+        type: 'GET',
+        success: function(res){
+            showCart(res);
         },
-        error : function (){
-            alert("Ошибка! Попробуйте позже");
+        error: function(){
+            alert('Ошибка! Попробуйте позже');
         }
     });
-
 }
+/*Cart*/
 
-/* Cart */
+$('#currency').change(function(){
+    window.location = 'currency/change?curr=' + $(this).val();
+});
 
-
-
-$('#currency').change(function (){
-    window.location = 'currency/change?curr='+$(this).val();
-})
-$('.available select').on('change',function (){
+$('.available select').on('change', function(){
     var modId = $(this).val(),
-        color  = $(this).find('option').filter(':selected').data('title'),
+        color = $(this).find('option').filter(':selected').data('title'),
         price = $(this).find('option').filter(':selected').data('price'),
-        basePrice = $('#data-base').data('base');
-
-    if (price){
-          $('#data-base').text(symbolLeft + price + symbolRight)  ;
+        basePrice = $('#base-price').data('base');
+    if(price){
+        $('#base-price').text(symboleLeft + price + symboleRight);
+    }else{
+        $('#base-price').text(symboleLeft + basePrice + symboleRight);
     }
-    else{
-         $('#data-base').text( symbolLeft + basePrice + symbolRight);
-    }
-
-
 });

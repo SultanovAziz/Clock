@@ -1,8 +1,9 @@
+<?php //$parent = isset($category['childs']); ?>
 <li>
-    <a href="category/<?= $category['alias']; ?>"><?=$category['title'];?></a>
-    <?php if (isset($category['child'])) : ?>
+    <a href="category/<?=$category['alias'];?>"><?=$category['title'];?></a>
+    <?php if(isset($category['childs'])): ?>
         <ul>
-            <?= $this->getMenuHtml($category['child']); ?>
+            <?= $this->getMenuHtml($category['childs']);?>
         </ul>
     <?php endif; ?>
 </li>

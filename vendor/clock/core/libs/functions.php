@@ -1,18 +1,18 @@
 <?php
 
-
-function debug($array){
-    echo '<pre>'.print_r($array,1).'</pre>';
-
+function debug($arr){
+    echo '<pre>' . print_r($arr, true) . '</pre>';
 }
 
 function redirect($http = false){
-    if ($http){
+    if($http){
         $redirect = $http;
-    }
-    else{
+    }else{
         $redirect = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : PATH;
     }
     header("Location: $redirect");
-    exit();
+    exit;
+}
+function h($str){
+    return htmlspecialchars($str,ENT_QUOTES);
 }

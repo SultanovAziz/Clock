@@ -1,39 +1,38 @@
 <?php
 
-
 namespace clock;
 
+class Cache{
 
-class Cache
-{
-    use TSingeltone;
+    use TSingletone;
 
-    public function setCache($key,$data,$second = 3600){
-        if($second){
+    public function set($key, $data, $seconds = 3600){
+        if($seconds){
             $content['data'] = $data;
-            $content['end_time'] = time() + $second;
-            if (file_put_contents(CACHE.'/'.md5($key).'.txt',serialize($content))){
+            $content['end_time'] = time() + $seconds;
+            if(file_put_contents(CACHE . '/' . md5($key) . '.txt', serialize($content))){
                 return true;
             }
-            return false;
         }
+        return false;
     }
 
-    public function getCache($key){
-        $cache = CACHE.'/'.md5($key).'.txt';
-        if (file_exists($cache)){
-            $content = unserialize(file_get_contents($cache));
-            if (time()<=$content['end_time']){
+    public function get($key){
+        $file = CACHE . '/' . md5($key) . '.txt';
+        if(file_exists($file)){
+            $content = unserialize(file_get_contents($file));
+            if(time() <= $content['end_time']){
                 return $content['data'];
             }
-            unlink($cache);
+            unlink($file);
         }
+        return false;
     }
 
-    public function deleteCache($key){
-        $cache = CACHE.'/'.md5($key).'.txt';
-        if (file_exists($cache)){
-            unlink($cache);
+    public function delete($key){
+        $file = CACHE . '/' . md5($key) . '.txt';
+        if(file_exists($file)){
+            unlink($file);
         }
     }
 
